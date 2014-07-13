@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "KMXMLParser.h"
+@interface ViewController : UIViewController<KMXMLParserDelegate>{
+    IBOutlet UITableView *table;
+    
+}
+@property (strong, nonatomic) NSArray *dataArray;
 @end

@@ -21,6 +21,8 @@
 		C71DF0A9196BAF15001F9202 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71DF08B196BAF15001F9202 /* UIKit.framework */; };
 		C71DF0B1196BAF15001F9202 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C71DF0AF196BAF15001F9202 /* InfoPlist.strings */; };
 		C71DF0B3196BAF15001F9202 /* socialplusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71DF0B2196BAF15001F9202 /* socialplusTests.m */; };
+		C78456D1196FC84300821C4D /* KMXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C78456D0196FC84300821C4D /* KMXMLParser.m */; };
+		C78456D4196FC94E00821C4D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78456D3196FC94E00821C4D /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		C71DF0AE196BAF15001F9202 /* socialplusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "socialplusTests-Info.plist"; sourceTree = "<group>"; };
 		C71DF0B0196BAF15001F9202 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C71DF0B2196BAF15001F9202 /* socialplusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socialplusTests.m; sourceTree = "<group>"; };
+		C78456CF196FC84300821C4D /* KMXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMXMLParser.h; sourceTree = "<group>"; };
+		C78456D0196FC84300821C4D /* KMXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMXMLParser.m; sourceTree = "<group>"; };
+		C78456D2196FC94E00821C4D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C78456D3196FC94E00821C4D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,8 @@
 				C71DF096196BAF15001F9202 /* AppDelegate.h */,
 				C71DF097196BAF15001F9202 /* AppDelegate.m */,
 				C71DF099196BAF15001F9202 /* Main.storyboard */,
+				C78456D2196FC94E00821C4D /* WebViewController.h */,
+				C78456D3196FC94E00821C4D /* WebViewController.m */,
 				C71DF09C196BAF15001F9202 /* ViewController.h */,
 				C71DF09D196BAF15001F9202 /* ViewController.m */,
 				C71DF09F196BAF15001F9202 /* Images.xcassets */,
@@ -126,6 +134,8 @@
 		C71DF08E196BAF15001F9202 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C78456CF196FC84300821C4D /* KMXMLParser.h */,
+				C78456D0196FC84300821C4D /* KMXMLParser.m */,
 				C71DF08F196BAF15001F9202 /* socialplus-Info.plist */,
 				C71DF090196BAF15001F9202 /* InfoPlist.strings */,
 				C71DF093196BAF15001F9202 /* main.m */,
@@ -249,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78456D1196FC84300821C4D /* KMXMLParser.m in Sources */,
+				C78456D4196FC94E00821C4D /* WebViewController.m in Sources */,
 				C71DF09E196BAF15001F9202 /* ViewController.m in Sources */,
 				C71DF098196BAF15001F9202 /* AppDelegate.m in Sources */,
 				C71DF094196BAF15001F9202 /* main.m in Sources */,
@@ -456,6 +468,7 @@
 				C71DF0B8196BAF15001F9202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C71DF0B9196BAF15001F9202 /* Build configuration list for PBXNativeTarget "socialplusTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				C71DF0BB196BAF15001F9202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
